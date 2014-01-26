@@ -1,9 +1,9 @@
 //
 //  HIPasswordInputViewController.h
-//  Hive
+//  SecureOSX
 //
 //  Created by Nikolaj Schumacher on 2013-12-09.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 @class HIPasswordHolder;

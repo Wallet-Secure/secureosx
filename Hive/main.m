@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 11.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
@@ -19,8 +19,8 @@ void migratePreferences() {
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSURL *libraryDir = [fileManager URLsForDirectory:NSLibraryDirectory inDomains:NSUserDomainMask][0];
     NSURL *preferencesDir = [libraryDir URLByAppendingPathComponent:@"Preferences"];
-    NSURL *oldPreferences = [preferencesDir URLByAppendingPathComponent:@"com.grabhive.Hive.plist"];
-    NSURL *newPreferences = [preferencesDir URLByAppendingPathComponent:@"com.hivewallet.Hive.plist"];
+    NSURL *oldPreferences = [preferencesDir URLByAppendingPathComponent:@"com.grabSecureOSX.SecureOSX.plist"];
+    NSURL *newPreferences = [preferencesDir URLByAppendingPathComponent:@"com.SecureOSXwallet.SecureOSX.plist"];
 
     if ([fileManager fileExistsAtPath:oldPreferences.path] && ![fileManager fileExistsAtPath:newPreferences.path]) {
         NSError *error = nil;

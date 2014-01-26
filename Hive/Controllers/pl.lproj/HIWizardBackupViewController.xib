@@ -77,7 +77,7 @@
                     </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="rIc-eX-ajY">
                         <font key="font" metaFont="system" size="16"/>
-                        <string key="title">W celu zabezpieczenia pieniędzy powinno się wykonywać kopię zapasową pliku portfela. Jeśli stracisz lub zgubisz swój komputer, Hive będzie mógł odtworzyć Twój portfel z kopii zapasowej.</string>
+                        <string key="title">W celu zabezpieczenia pieniędzy powinno się wykonywać kopię zapasową pliku portfela. Jeśli stracisz lub zgubisz swój komputer, SecureOSX będzie mógł odtworzyć Twój portfel z kopii zapasowej.</string>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>

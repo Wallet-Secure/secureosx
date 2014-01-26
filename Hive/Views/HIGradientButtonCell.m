@@ -1,7 +1,7 @@
 #import "HIGradientButtonCell.h"
 
 #import "HIButtonWithSpinner.h"
-#import "NSColor+Hive.h"
+#import "NSColor+SecureOSX.h"
 
 static const float PADDING_X = 5.0;
 static const float PADDING_Y = 0.0;

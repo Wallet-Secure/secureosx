@@ -1,9 +1,9 @@
 //
 //  HIDropboxBackup.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 23.12.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "BCClient.h"
@@ -142,7 +142,7 @@ const NSInteger HIDropboxBackupNotRunning = -3;
 
 - (NSString *)defaultBackupFolder {
     NSString *prefix = [[[BCClient sharedClient] walletHash] substringToIndex:5];
-    NSString *subdirectory = [@"Hive-" stringByAppendingString:prefix];
+    NSString *subdirectory = [@"SecureOSX-" stringByAppendingString:prefix];
     return [[self dropboxFolder] stringByAppendingPathComponent:subdirectory];
 }
 

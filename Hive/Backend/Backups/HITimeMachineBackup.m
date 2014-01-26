@@ -1,9 +1,9 @@
 //
 //  HITimeMachineBackup.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 23.12.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "HITimeMachineBackup.h"
@@ -63,7 +63,7 @@ const NSInteger HITimeMachineBackupPathExcluded = -2;
     if ([self isExcludedFromBackup]) {
         self.status = HIBackupStatusFailure;
         self.error = BackupError(HITimeMachineBackupError, HITimeMachineBackupPathExcluded,
-                                 NSLocalizedString(@"Hive directory is excluded from Time Machine backup",
+                                 NSLocalizedString(@"SecureOSX directory is excluded from Time Machine backup",
                                                    @"Backup error message"));
         return;
     }

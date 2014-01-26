@@ -1,9 +1,9 @@
 //
 //  HIApplicationsManager.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 08.10.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "HIApplication.h"
@@ -34,7 +34,7 @@
         if (isDirectory) {
             data = [NSData dataWithContentsOfURL:[applicationPath URLByAppendingPathComponent:@"manifest.json"]];
         } else {
-            NPZip *zipFile = [NPZip archiveWithFile:applicationPath.path];
+            NPZip *zipFile = [NPZip arcSecureOSXWithFile:applicationPath.path];
             data = [zipFile dataForEntryNamed:@"manifest.json"];
         }
     }
@@ -99,14 +99,14 @@
 
 - (void)preinstallApps {
     // delete old versions of apps with old ids - this can be removed later
-    for (NSString *name in @[@"bitstamp", @"localbitcoins", @"minefield", @"seansoutpost", @"supporthive2"]) {
+    for (NSString *name in @[@"bitstamp", @"localbitcoins", @"minefield", @"seansoutpost", @"supportSecureOSX2"]) {
         NSURL *appURL = [[self applicationsDirectory] URLByAppendingPathComponent:name];
         [[NSFileManager defaultManager] removeItemAtURL:appURL error:NULL];
     }
     [self rebuildAppsList];
 
     // install bundled apps
-    NSArray *allApps = [[NSBundle mainBundle] URLsForResourcesWithExtension:@"hiveapp" subdirectory:@""];
+    NSArray *allApps = [[NSBundle mainBundle] URLsForResourcesWithExtension:@"SecureOSXapp" subdirectory:@""];
 
     for (NSURL *applicationURL in allApps) {
         [self installApplication:applicationURL];

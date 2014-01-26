@@ -15,7 +15,7 @@ local_zip_file = File.expand_path(local_zip_file)
 file_size = File.size(local_zip_file)
 signature = %x(./sign_update.rb #{local_zip_file} #{private_key_file}).gsub(/\s+/, '')
 
-json = JSON.parse(open("https://api.github.com/repos/hivewallet/hive-osx/releases").read)
+json = JSON.parse(open("https://api.github.com/repos/SecureOSXwallet/SecureOSX-osx/releases").read)
 release = json.detect { |r| r['tag_name'] == version }
 
 unless release
@@ -32,11 +32,11 @@ unless zip_asset
   exit 1
 end
 
-zip_url = "https://github.com/hivewallet/hive-osx/releases/download/#{version}/#{zip_asset['name']}"
+zip_url = "https://github.com/SecureOSXwallet/SecureOSX-osx/releases/download/#{version}/#{zip_asset['name']}"
 
 puts %(
 <item>
-    <title>Hive 0.9 build #{version}</title>
+    <title>SecureOSX 0.9 build #{version}</title>
     <description>
         <![CDATA[
             <p>What's changed:</p>

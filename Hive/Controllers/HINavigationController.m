@@ -1,9 +1,9 @@
 //
 //  HINavigationController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 30.08.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <QuartzCore/QuartzCore.h>

@@ -9,7 +9,7 @@ pod 'LetsMove'
 pod 'AutoLayoutMacros'
 
 target :test, :exclusive => true do
-  link_with 'HiveTests'
+  link_with 'SecureOSXTests'
   pod 'OCHamcrest', '~> 3.0'
 end
 

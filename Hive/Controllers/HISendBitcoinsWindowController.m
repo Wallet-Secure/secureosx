@@ -1,9 +1,9 @@
 //
 //  HISendBitcoinsWindowController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 05.09.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <BitcoinJKit/BitcoinJKit.h>
@@ -475,7 +475,7 @@ NSString * const HISendBitcoinsWindowSuccessKey = @"success";
 
     HILinkTextField *link = [[HILinkTextField alloc] initWithFrame:NSMakeRect(0, 0, 300, 15)];
     link.stringValue = NSLocalizedString(@"What does this mean?", @"Button to show info about pending funds");
-    link.href = @"https://github.com/hivewallet/hive-osx/wiki/Sending-Bitcoin-from-a-pending-transaction";
+    link.href = @"https://github.com/SecureOSXwallet/SecureOSX-osx/wiki/Sending-Bitcoin-from-a-pending-transaction";
     link.font = [NSFont systemFontOfSize:11.0];
     [alert setAccessoryView:link];
 

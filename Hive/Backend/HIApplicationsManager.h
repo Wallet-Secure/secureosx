@@ -1,9 +1,9 @@
 //
 //  HIApplicationsManager.h
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 08.10.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

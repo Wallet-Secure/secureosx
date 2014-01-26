@@ -1,9 +1,9 @@
 //
 //  HIContactInfoViewController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 24.09.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "BCClient.h"
@@ -15,7 +15,7 @@
 #import "HINewContactViewController.h"
 #import "HIProfile.h"
 #import "HIViewController.h"
-#import "NSColor+Hive.h"
+#import "NSColor+SecureOSX.h"
 #import "HIPerson.h"
 
 static const NSInteger AddressFieldTag = 2;

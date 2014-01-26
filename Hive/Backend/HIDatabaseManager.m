@@ -1,9 +1,9 @@
 //
 //  HIDatabaseManager.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 10.12.13.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "BCClient.h"
@@ -16,7 +16,7 @@
         return nil;                     \
     }
 
-static NSString * const StoreFileName = @"Hive.storedata";
+static NSString * const StoreFileName = @"SecureOSX.storedata";
 static NSString * const HIDatabaseManagerErrorDomain = @"HIDatabaseManagerErrorDomain";
 static NSInteger HIDatabaseManagerFileExistsAtLocationError = 1000;
 
@@ -43,7 +43,7 @@ static NSInteger HIDatabaseManagerFileExistsAtLocationError = 1000;
 
 - (NSManagedObjectModel *)managedObjectModel {
     if (!_managedObjectModel) {
-        NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Hive" withExtension:@"momd"];
+        NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"SecureOSX" withExtension:@"momd"];
         self.managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     }
 
@@ -294,13 +294,13 @@ static NSInteger HIDatabaseManagerFileExistsAtLocationError = 1000;
     if ([error.domain isEqual:NSCocoaErrorDomain]) {
         switch (error.code) {
             case NSMigrationMissingSourceModelError:
-                explanation = NSLocalizedString(@"The database was saved by a newer version of Hive - "
-                                                @"please download the latest version from http://hivewallet.com.",
+                explanation = NSLocalizedString(@"The database was saved by a newer version of SecureOSX - "
+                                                @"please download the latest version from http://SecureOSXwallet.com.",
                                                 @"Error message when database is incompatible with this version");
         }
     }
 
-    NSAlert *alert = [NSAlert alertWithMessageText:NSLocalizedString(@"Hive database file cannot be opened.",
+    NSAlert *alert = [NSAlert alertWithMessageText:NSLocalizedString(@"SecureOSX database file cannot be opened.",
                                                                      @"Database error alert title")
                                      defaultButton:NSLocalizedString(@"OK", @"OK button title")
                                    alternateButton:nil

@@ -1,6 +1,6 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
+	arcSecureOSXVersion = 1;
 	classes = {
 	};
 	objectVersion = 46;
@@ -64,9 +64,9 @@
 		583B1E011868784600817EF8 /* HIBackupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 583B1E001868784600817EF8 /* HIBackupManager.m */; };
 		583B1E0318687CF400817EF8 /* dropbox-glyph-blue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 583B1E0218687CF400817EF8 /* dropbox-glyph-blue.pdf */; };
 		583B1E0D1868BAC000817EF8 /* HIBackupActionsCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583B1E0C1868BAC000817EF8 /* HIBackupActionsCellView.m */; };
-		58571260188F28A70094F884 /* bitstamptrader.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 5857125E188F28A70094F884 /* bitstamptrader.hiveapp */; };
-		58571261188F28A70094F884 /* mobile-recharge.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 5857125F188F28A70094F884 /* mobile-recharge.hiveapp */; };
-		5857126F188F3C480094F884 /* bitpremier.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 5857126E188F3C480094F884 /* bitpremier.hiveapp */; };
+		58571260188F28A70094F884 /* bitstamptrader.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 5857125E188F28A70094F884 /* bitstamptrader.SecureOSXapp */; };
+		58571261188F28A70094F884 /* mobile-recharge.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 5857125F188F28A70094F884 /* mobile-recharge.SecureOSXapp */; };
+		5857126F188F3C480094F884 /* bitpremier.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 5857126E188F3C480094F884 /* bitpremier.SecureOSXapp */; };
 		585712781890267E0094F884 /* HIWizardBackupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5857127A1890267E0094F884 /* HIWizardBackupViewController.xib */; };
 		58571296189029850094F884 /* HIWizardBackupViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58571298189029850094F884 /* HIWizardBackupViewController.strings */; };
 		585712B618902CD70094F884 /* HIWizardCompletedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585712B818902CD70094F884 /* HIWizardCompletedViewController.xib */; };
@@ -77,10 +77,10 @@
 		585713521890321A0094F884 /* HIWizardWelcomeViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 585713541890321A0094F884 /* HIWizardWelcomeViewController.strings */; };
 		585A8B2518576F020096888C /* HIDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A8B2418576F020096888C /* HIDatabaseManager.m */; };
 		585FFF4418159803005BCF73 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 585FFF4318159803005BCF73 /* Credits.rtf */; };
-		586059B0180419DF00FD9C2A /* minefield.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 586059AD180419DF00FD9C2A /* minefield.hiveapp */; };
-		586059B1180419DF00FD9C2A /* supporthive.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 586059AE180419DF00FD9C2A /* supporthive.hiveapp */; };
+		586059B0180419DF00FD9C2A /* minefield.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 586059AD180419DF00FD9C2A /* minefield.SecureOSXapp */; };
+		586059B1180419DF00FD9C2A /* supportSecureOSX.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 586059AE180419DF00FD9C2A /* supportSecureOSX.SecureOSXapp */; };
 		586059B4180419F500FD9C2A /* BCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 586059B3180419F500FD9C2A /* BCClient.m */; };
-		586059BD18041A1300FD9C2A /* NSColor+Hive.m in Sources */ = {isa = PBXBuildFile; fileRef = 586059B618041A1300FD9C2A /* NSColor+Hive.m */; };
+		586059BD18041A1300FD9C2A /* NSColor+SecureOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 586059B618041A1300FD9C2A /* NSColor+SecureOSX.m */; };
 		586059BE18041A1300FD9C2A /* NSImage+NPEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 586059B818041A1300FD9C2A /* NSImage+NPEffects.m */; };
 		586059BF18041A1300FD9C2A /* NSView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 586059BA18041A1300FD9C2A /* NSView+Snapshot.m */; };
 		586059C018041A1300FD9C2A /* SUCodeSigningVerifier+DisableCodeSigningCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 586059BC18041A1300FD9C2A /* SUCodeSigningVerifier+DisableCodeSigningCheck.m */; };
@@ -150,7 +150,7 @@
 		58895405188924FB00243190 /* HIPasswordInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58895407188924FB00243190 /* HIPasswordInputViewController.xib */; };
 		588954231889254A00243190 /* HIPasswordInputViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 588954251889254A00243190 /* HIPasswordInputViewController.strings */; };
 		588E33B71817E6AE006A6A25 /* HIBitcoinURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E33B61817E6AE006A6A25 /* HIBitcoinURL.m */; };
-		588E34B7181E9F7B006A6A25 /* localbitcoins.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 588E34B6181E9F7B006A6A25 /* localbitcoins.hiveapp */; };
+		588E34B7181E9F7B006A6A25 /* localbitcoins.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 588E34B6181E9F7B006A6A25 /* localbitcoins.SecureOSXapp */; };
 		588E34D9181FF32B006A6A25 /* HIDebuggingInfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E34D7181FF32B006A6A25 /* HIDebuggingInfoWindowController.m */; };
 		588E34DB181FF8A7006A6A25 /* HIDebuggingInfoWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588E34DD181FF8A7006A6A25 /* HIDebuggingInfoWindowController.xib */; };
 		588E34F2182013E9006A6A25 /* HIDebuggingInfoWindowController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 588E34F4182013E9006A6A25 /* HIDebuggingInfoWindowController.strings */; };
@@ -159,7 +159,7 @@
 		588E356618212BFB006A6A25 /* HIErrorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588E356818212BFB006A6A25 /* HIErrorWindowController.xib */; };
 		588EFB2E17D8D2970085F6E6 /* HIProfileTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EFB2D17D8D2970085F6E6 /* HIProfileTabView.m */; };
 		588F3E8518719A9000FF42EA /* HIBackupStatusCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 588F3E8418719A9000FF42EA /* HIBackupStatusCellView.m */; };
-		589064AE1805742C0082BE5C /* seansoutpost.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 589064AD1805742C0082BE5C /* seansoutpost.hiveapp */; };
+		589064AE1805742C0082BE5C /* seansoutpost.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 589064AD1805742C0082BE5C /* seansoutpost.SecureOSXapp */; };
 		589064B7180596B80082BE5C /* HIEditableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589064B6180596B80082BE5C /* HIEditableImageView.m */; };
 		58A03B0D17D9DC4100ADD5E5 /* HIButtonWithSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A03B0C17D9DC4100ADD5E5 /* HIButtonWithSpinner.m */; };
 		58A37A8A180D747C00CFCDE3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58A37A8C180D747C00CFCDE3 /* Localizable.strings */; };
@@ -182,9 +182,9 @@
 		58A37AE2180D99A100CFCDE3 /* HIMainWindowController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58A37AE0180D99A100CFCDE3 /* HIMainWindowController.strings */; };
 		58A37AE5180D99F200CFCDE3 /* MainMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58A37AE3180D99F200CFCDE3 /* MainMenu.strings */; };
 		58CFD95417CF914000A035FA /* HISidebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CFD95217CF914000A035FA /* HISidebarView.m */; };
-		58D4D61F18290079009CB7A5 /* patten_hive.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 58D4D61E18290079009CB7A5 /* patten_hive.hiveapp */; };
+		58D4D61F18290079009CB7A5 /* patten_SecureOSX.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 58D4D61E18290079009CB7A5 /* patten_SecureOSX.SecureOSXapp */; };
 		58E336171892C02E004D60C3 /* HIApplicationsViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58E336191892C02E004D60C3 /* HIApplicationsViewController.strings */; };
-		58E3363A18934DCB004D60C3 /* coinbase.hiveapp in Resources */ = {isa = PBXBuildFile; fileRef = 58E3363918934DCB004D60C3 /* coinbase.hiveapp */; };
+		58E3363A18934DCB004D60C3 /* coinbase.SecureOSXapp in Resources */ = {isa = PBXBuildFile; fileRef = 58E3363918934DCB004D60C3 /* coinbase.SecureOSXapp */; };
 		58F02AEE17E1F5A400B65429 /* HIRightPointingArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F02AED17E1F5A400B65429 /* HIRightPointingArrowView.m */; };
 		58FB21EC1875809B00F87B9E /* get_dropbox_folder.sh in Resources */ = {isa = PBXBuildFile; fileRef = 58FB21EB1875809B00F87B9E /* get_dropbox_folder.sh */; };
 		D901F4F817B272E60071780D /* BitcoinJKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D901F4F517B272CE0071780D /* BitcoinJKit.framework */; };
@@ -200,7 +200,7 @@
 		D94815F517D72AF8006A0312 /* HITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D94815F417D72AF8006A0312 /* HITextField.m */; };
 		D958A8B817E8547A00CED98C /* HIFlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D958A8B717E8547A00CED98C /* HIFlippedView.m */; };
 		D95929DD17742B71008B4F43 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95929DC17742B70008B4F43 /* WebKit.framework */; };
-		D962AF031769FEF9009F882A /* Hive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D962AF011769FEF9009F882A /* Hive.xcdatamodeld */; };
+		D962AF031769FEF9009F882A /* SecureOSX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D962AF011769FEF9009F882A /* SecureOSX.xcdatamodeld */; };
 		D9716B6D17D88F8800888F4E /* HIDoneButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9716B6C17D88F8800888F4E /* HIDoneButtonCell.m */; };
 		D9716B7217D8B42E00888F4E /* HIButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9716B7117D8B42E00888F4E /* HIButtonCell.m */; };
 		D9716B7717D8C40100888F4E /* HIBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D9716B7617D8C40100888F4E /* HIBox.m */; };
@@ -225,7 +225,7 @@
 			containerPortal = D9A591BC1767B4A800502635 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D9A591C31767B4A800502635;
-			remoteInfo = Hive;
+			remoteInfo = SecureOSX;
 		};
 		5884A00B17F1B5FF004A31FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -315,7 +315,7 @@
 		1AA10EF74F3C5F1303FD333E /* HIGradientButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGradientButtonCell.h; sourceTree = "<group>"; };
 		1AA10F3E7660E657A58361D9 /* HIProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIProfileViewController.h; sourceTree = "<group>"; };
 		1AA10FF5AC215B56078E2A1F /* HIWizardWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIWizardWindowController.h; sourceTree = "<group>"; };
-		1EFBACBE45EB458A8ED83785 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFBACBE45EB458A8ED83785 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = arcSecureOSX.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24178E2D1861005100A73D4E /* HIPasswordChangeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPasswordChangeWindowController.h; sourceTree = "<group>"; };
 		24178E2E1861005100A73D4E /* HIPasswordChangeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPasswordChangeWindowController.m; sourceTree = "<group>"; };
 		24300BD618830ACA00FDEF2F /* HIFirstRunWizardWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIFirstRunWizardWindowController.h; sourceTree = "<group>"; };
@@ -431,13 +431,13 @@
 		2478B908184A8A0200BA2C35 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/HIFeeDetailsViewController.strings; sourceTree = "<group>"; };
 		2478B909184A8A0200BA2C35 /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/HIFeeDetailsViewController.strings; sourceTree = "<group>"; };
 		2478B90A184A8A0300BA2C35 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/HIFeeDetailsViewController.strings"; sourceTree = "<group>"; };
-		24EAAFBF186E1BBD00E1D2D3 /* HiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EAAFBF186E1BBD00E1D2D3 /* SecureOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EAAFC0186E1BBD00E1D2D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		24EAAFC4186E1BBD00E1D2D3 /* HiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiveTests-Info.plist"; sourceTree = "<group>"; };
+		24EAAFC4186E1BBD00E1D2D3 /* SecureOSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureOSXTests-Info.plist"; sourceTree = "<group>"; };
 		24EAAFC6186E1BBD00E1D2D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24EAAFC8186E1BBD00E1D2D3 /* HIBitcoinFormatServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIBitcoinFormatServiceTests.m; sourceTree = "<group>"; };
-		24EAAFCA186E1BBD00E1D2D3 /* HiveTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiveTests-Prefix.pch"; sourceTree = "<group>"; };
-		4D217EA4BBEC47F5A47AFC8E /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EAAFCA186E1BBD00E1D2D3 /* SecureOSXTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureOSXTests-Prefix.pch"; sourceTree = "<group>"; };
+		4D217EA4BBEC47F5A47AFC8E /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = arcSecureOSX.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58003E2718492B2A00CD19FE /* sr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sr; path = sr.lproj/HIApplicationsViewController.xib; sourceTree = "<group>"; };
 		58003E2818492B2A00CD19FE /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/HIContactsViewController.strings; sourceTree = "<group>"; };
 		58003E2918492B2A00CD19FE /* sr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sr; path = sr.lproj/HIContactsViewController.xib; sourceTree = "<group>"; };
@@ -542,9 +542,9 @@
 		583B1E0B1868BAC000817EF8 /* HIBackupActionsCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBackupActionsCellView.h; sourceTree = "<group>"; };
 		583B1E0C1868BAC000817EF8 /* HIBackupActionsCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBackupActionsCellView.m; sourceTree = "<group>"; };
 		58571253188D8E7A0094F884 /* 2014012001.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 2014012001.xcdatamodel; sourceTree = "<group>"; };
-		5857125E188F28A70094F884 /* bitstamptrader.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bitstamptrader.hiveapp; sourceTree = "<group>"; };
-		5857125F188F28A70094F884 /* mobile-recharge.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mobile-recharge.hiveapp"; sourceTree = "<group>"; };
-		5857126E188F3C480094F884 /* bitpremier.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bitpremier.hiveapp; sourceTree = "<group>"; };
+		5857125E188F28A70094F884 /* bitstamptrader.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bitstamptrader.SecureOSXapp; sourceTree = "<group>"; };
+		5857125F188F28A70094F884 /* mobile-recharge.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mobile-recharge.SecureOSXapp"; sourceTree = "<group>"; };
+		5857126E188F3C480094F884 /* bitpremier.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bitpremier.SecureOSXapp; sourceTree = "<group>"; };
 		585712791890267E0094F884 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HIWizardBackupViewController.xib; sourceTree = "<group>"; };
 		5857127B189026890094F884 /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = pl.lproj/HIWizardBackupViewController.xib; sourceTree = "<group>"; };
 		5857127C1890268B0094F884 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/HIWizardBackupViewController.xib; sourceTree = "<group>"; };
@@ -776,12 +776,12 @@
 		585FFF331815374C005BCF73 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = nl.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		585FFF361815374C005BCF73 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		585FFF4318159803005BCF73 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		586059AD180419DF00FD9C2A /* minefield.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = minefield.hiveapp; sourceTree = "<group>"; };
-		586059AE180419DF00FD9C2A /* supporthive.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = supporthive.hiveapp; sourceTree = "<group>"; };
+		586059AD180419DF00FD9C2A /* minefield.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = minefield.SecureOSXapp; sourceTree = "<group>"; };
+		586059AE180419DF00FD9C2A /* supportSecureOSX.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = supportSecureOSX.SecureOSXapp; sourceTree = "<group>"; };
 		586059B2180419F500FD9C2A /* BCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCClient.h; sourceTree = "<group>"; };
 		586059B3180419F500FD9C2A /* BCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCClient.m; sourceTree = "<group>"; };
-		586059B518041A1300FD9C2A /* NSColor+Hive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hive.h"; sourceTree = "<group>"; };
-		586059B618041A1300FD9C2A /* NSColor+Hive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hive.m"; sourceTree = "<group>"; };
+		586059B518041A1300FD9C2A /* NSColor+SecureOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+SecureOSX.h"; sourceTree = "<group>"; };
+		586059B618041A1300FD9C2A /* NSColor+SecureOSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+SecureOSX.m"; sourceTree = "<group>"; };
 		586059B718041A1300FD9C2A /* NSImage+NPEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+NPEffects.h"; sourceTree = "<group>"; };
 		586059B818041A1300FD9C2A /* NSImage+NPEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+NPEffects.m"; sourceTree = "<group>"; };
 		586059B918041A1300FD9C2A /* NSView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Snapshot.h"; sourceTree = "<group>"; };
@@ -1209,7 +1209,7 @@
 		588E34B2181E7B8E006A6A25 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		588E34B3181E7B8E006A6A25 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		588E34B5181E7B8E006A6A25 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		588E34B6181E9F7B006A6A25 /* localbitcoins.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = localbitcoins.hiveapp; sourceTree = "<group>"; };
+		588E34B6181E9F7B006A6A25 /* localbitcoins.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = localbitcoins.SecureOSXapp; sourceTree = "<group>"; };
 		588E34BB181EBE05006A6A25 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/HIApplicationsViewController.xib; sourceTree = "<group>"; };
 		588E34BC181EBE05006A6A25 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/HIContactsViewController.strings; sourceTree = "<group>"; };
 		588E34BD181EBE05006A6A25 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/HIContactsViewController.xib; sourceTree = "<group>"; };
@@ -1306,7 +1306,7 @@
 		588EFB2D17D8D2970085F6E6 /* HIProfileTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIProfileTabView.m; sourceTree = "<group>"; };
 		588F3E8318719A9000FF42EA /* HIBackupStatusCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBackupStatusCellView.h; sourceTree = "<group>"; };
 		588F3E8418719A9000FF42EA /* HIBackupStatusCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBackupStatusCellView.m; sourceTree = "<group>"; };
-		589064AD1805742C0082BE5C /* seansoutpost.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = seansoutpost.hiveapp; sourceTree = "<group>"; };
+		589064AD1805742C0082BE5C /* seansoutpost.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = seansoutpost.SecureOSXapp; sourceTree = "<group>"; };
 		589064B5180596B80082BE5C /* HIEditableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIEditableImageView.h; sourceTree = "<group>"; };
 		589064B6180596B80082BE5C /* HIEditableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIEditableImageView.m; sourceTree = "<group>"; };
 		589C610B183A6B2500EE523F /* ro */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ro; path = ro.lproj/HIApplicationsViewController.xib; sourceTree = "<group>"; };
@@ -1480,7 +1480,7 @@
 		58A37BA6180DBAA100CFCDE3 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		58CFD95117CF914000A035FA /* HISidebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HISidebarView.h; sourceTree = "<group>"; };
 		58CFD95217CF914000A035FA /* HISidebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HISidebarView.m; sourceTree = "<group>"; };
-		58D4D61E18290079009CB7A5 /* patten_hive.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = patten_hive.hiveapp; sourceTree = "<group>"; };
+		58D4D61E18290079009CB7A5 /* patten_SecureOSX.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = patten_SecureOSX.SecureOSXapp; sourceTree = "<group>"; };
 		58D4D627182A760B009CB7A5 /* el */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = el; path = el.lproj/HIApplicationsViewController.xib; sourceTree = "<group>"; };
 		58D4D628182A760B009CB7A5 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/HIContactsViewController.strings; sourceTree = "<group>"; };
 		58D4D629182A760B009CB7A5 /* el */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = el; path = el.lproj/HIContactsViewController.xib; sourceTree = "<group>"; };
@@ -1555,7 +1555,7 @@
 		58E336301892C046004D60C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/HIApplicationsViewController.strings; sourceTree = "<group>"; };
 		58E336311892C046004D60C3 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/HIApplicationsViewController.strings"; sourceTree = "<group>"; };
 		58E336321892C047004D60C3 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/HIApplicationsViewController.strings; sourceTree = "<group>"; };
-		58E3363918934DCB004D60C3 /* coinbase.hiveapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = coinbase.hiveapp; sourceTree = "<group>"; };
+		58E3363918934DCB004D60C3 /* coinbase.SecureOSXapp */ = {isa = PBXFileReference; lastKnownFileType = file; path = coinbase.SecureOSXapp; sourceTree = "<group>"; };
 		58F02AEC17E1F5A400B65429 /* HIRightPointingArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIRightPointingArrowView.h; sourceTree = "<group>"; };
 		58F02AED17E1F5A400B65429 /* HIRightPointingArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIRightPointingArrowView.m; sourceTree = "<group>"; };
 		58F56BA01832909000C57640 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/HIApplicationsViewController.xib; sourceTree = "<group>"; };
@@ -1632,7 +1632,7 @@
 		D958A8B617E8547A00CED98C /* HIFlippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIFlippedView.h; sourceTree = "<group>"; };
 		D958A8B717E8547A00CED98C /* HIFlippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIFlippedView.m; sourceTree = "<group>"; };
 		D95929DC17742B70008B4F43 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		D962AF021769FEF9009F882A /* Hive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hive.xcdatamodel; sourceTree = "<group>"; };
+		D962AF021769FEF9009F882A /* SecureOSX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecureOSX.xcdatamodel; sourceTree = "<group>"; };
 		D9716B6B17D88F8800888F4E /* HIDoneButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDoneButtonCell.h; sourceTree = "<group>"; };
 		D9716B6C17D88F8800888F4E /* HIDoneButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDoneButtonCell.m; sourceTree = "<group>"; };
 		D9716B7017D8B42E00888F4E /* HIButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIButtonCell.h; sourceTree = "<group>"; };
@@ -1648,14 +1648,14 @@
 		D983D0A517703CE800844D69 /* HIContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HIContact.m; path = Database/HIContact.m; sourceTree = "<group>"; };
 		D99C9A5317E8F59200899CAB /* HIDeleteButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDeleteButtonCell.h; sourceTree = "<group>"; };
 		D99C9A5417E8F59200899CAB /* HIDeleteButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDeleteButtonCell.m; sourceTree = "<group>"; };
-		D9A591C41767B4A800502635 /* Hive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A591C41767B4A800502635 /* SecureOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A591C71767B4A800502635 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D9A591CA1767B4A800502635 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D9A591CB1767B4A800502635 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D9A591CC1767B4A800502635 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D9A591CF1767B4A800502635 /* Hive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hive-Info.plist"; sourceTree = "<group>"; };
+		D9A591CF1767B4A800502635 /* SecureOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureOSX-Info.plist"; sourceTree = "<group>"; };
 		D9A591D31767B4A800502635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9A591D51767B4A800502635 /* Hive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hive-Prefix.pch"; sourceTree = "<group>"; };
+		D9A591D51767B4A800502635 /* SecureOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureOSX-Prefix.pch"; sourceTree = "<group>"; };
 		D9A591D91767B4A800502635 /* HIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIAppDelegate.h; sourceTree = "<group>"; };
 		D9A591DA1767B4A800502635 /* HIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIAppDelegate.m; sourceTree = "<group>"; };
 		D9A591DD1767B4A800502635 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -1802,22 +1802,22 @@
 			name = HIFeeDetailsViewController;
 			sourceTree = "<group>";
 		};
-		24EAAFC2186E1BBD00E1D2D3 /* HiveTests */ = {
+		24EAAFC2186E1BBD00E1D2D3 /* SecureOSXTests */ = {
 			isa = PBXGroup;
 			children = (
 				24EAAFC8186E1BBD00E1D2D3 /* HIBitcoinFormatServiceTests.m */,
 				24EAAFC3186E1BBD00E1D2D3 /* Supporting Files */,
 				1AA107B12E9AB06FCF455005 /* HICurrencyFormatServiceTests.m */,
 			);
-			path = HiveTests;
+			path = SecureOSXTests;
 			sourceTree = "<group>";
 		};
 		24EAAFC3186E1BBD00E1D2D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24EAAFC4186E1BBD00E1D2D3 /* HiveTests-Info.plist */,
+				24EAAFC4186E1BBD00E1D2D3 /* SecureOSXTests-Info.plist */,
 				24EAAFC5186E1BBD00E1D2D3 /* InfoPlist.strings */,
-				24EAAFCA186E1BBD00E1D2D3 /* HiveTests-Prefix.pch */,
+				24EAAFCA186E1BBD00E1D2D3 /* SecureOSXTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1966,15 +1966,15 @@
 		D907A4E317F58F91009B3185 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
-				5857126E188F3C480094F884 /* bitpremier.hiveapp */,
-				5857125E188F28A70094F884 /* bitstamptrader.hiveapp */,
-				58E3363918934DCB004D60C3 /* coinbase.hiveapp */,
-				588E34B6181E9F7B006A6A25 /* localbitcoins.hiveapp */,
-				586059AD180419DF00FD9C2A /* minefield.hiveapp */,
-				5857125F188F28A70094F884 /* mobile-recharge.hiveapp */,
-				58D4D61E18290079009CB7A5 /* patten_hive.hiveapp */,
-				589064AD1805742C0082BE5C /* seansoutpost.hiveapp */,
-				586059AE180419DF00FD9C2A /* supporthive.hiveapp */,
+				5857126E188F3C480094F884 /* bitpremier.SecureOSXapp */,
+				5857125E188F28A70094F884 /* bitstamptrader.SecureOSXapp */,
+				58E3363918934DCB004D60C3 /* coinbase.SecureOSXapp */,
+				588E34B6181E9F7B006A6A25 /* localbitcoins.SecureOSXapp */,
+				586059AD180419DF00FD9C2A /* minefield.SecureOSXapp */,
+				5857125F188F28A70094F884 /* mobile-recharge.SecureOSXapp */,
+				58D4D61E18290079009CB7A5 /* patten_SecureOSX.SecureOSXapp */,
+				589064AD1805742C0082BE5C /* seansoutpost.SecureOSXapp */,
+				586059AE180419DF00FD9C2A /* supportSecureOSX.SecureOSXapp */,
 			);
 			path = Applications;
 			sourceTree = "<group>";
@@ -2117,8 +2117,8 @@
 		D9A591BB1767B4A800502635 = {
 			isa = PBXGroup;
 			children = (
-				D9A591CD1767B4A800502635 /* Hive */,
-				24EAAFC2186E1BBD00E1D2D3 /* HiveTests */,
+				D9A591CD1767B4A800502635 /* SecureOSX */,
+				24EAAFC2186E1BBD00E1D2D3 /* SecureOSXTests */,
 				D9A591C61767B4A800502635 /* Frameworks */,
 				D9A591C51767B4A800502635 /* Products */,
 				10153A3CC4364D6799CB4A2D /* Pods.xcconfig */,
@@ -2129,8 +2129,8 @@
 		D9A591C51767B4A800502635 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9A591C41767B4A800502635 /* Hive.app */,
-				24EAAFBF186E1BBD00E1D2D3 /* HiveTests.xctest */,
+				D9A591C41767B4A800502635 /* SecureOSX.app */,
+				24EAAFBF186E1BBD00E1D2D3 /* SecureOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2166,7 +2166,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		D9A591CD1767B4A800502635 /* Hive */ = {
+		D9A591CD1767B4A800502635 /* SecureOSX */ = {
 			isa = PBXGroup;
 			children = (
 				D907A4E317F58F91009B3185 /* Applications */,
@@ -2185,7 +2185,7 @@
 				D9A591DC1767B4A800502635 /* MainMenu.xib */,
 				D9A591CE1767B4A800502635 /* Supporting Files */,
 			);
-			path = Hive;
+			path = SecureOSX;
 			sourceTree = "<group>";
 		};
 		D9A591CE1767B4A800502635 /* Supporting Files */ = {
@@ -2194,8 +2194,8 @@
 				585FFF4318159803005BCF73 /* Credits.rtf */,
 				5884A03D17F57AE9004A31FA /* dsa_pub.pem */,
 				58FB21EB1875809B00F87B9E /* get_dropbox_folder.sh */,
-				D9A591CF1767B4A800502635 /* Hive-Info.plist */,
-				D9A591D51767B4A800502635 /* Hive-Prefix.pch */,
+				D9A591CF1767B4A800502635 /* SecureOSX-Info.plist */,
+				D9A591D51767B4A800502635 /* SecureOSX-Prefix.pch */,
 				D9F8454E1781C509004076F6 /* Icon.icns */,
 				58A37A8C180D747C00CFCDE3 /* Localizable.strings */,
 				D9A591D31767B4A800502635 /* main.m */,
@@ -2279,8 +2279,8 @@
 		D9A5922617684D5400502635 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				586059B518041A1300FD9C2A /* NSColor+Hive.h */,
-				586059B618041A1300FD9C2A /* NSColor+Hive.m */,
+				586059B518041A1300FD9C2A /* NSColor+SecureOSX.h */,
+				586059B618041A1300FD9C2A /* NSColor+SecureOSX.m */,
 				1AA10BD2B747098DE4F5E6E8 /* NSDecimalNumber+HISatoshiConversion.h */,
 				1AA104995C1BAF25C99780F1 /* NSDecimalNumber+HISatoshiConversion.m */,
 				586059B718041A1300FD9C2A /* NSImage+NPEffects.h */,
@@ -2306,7 +2306,7 @@
 				D983D0A517703CE800844D69 /* HIContact.m */,
 				D983D0A117703CDE00844D69 /* HITransaction.h */,
 				D983D0A217703CDE00844D69 /* HITransaction.m */,
-				D962AF011769FEF9009F882A /* Hive.xcdatamodeld */,
+				D962AF011769FEF9009F882A /* SecureOSX.xcdatamodeld */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -2314,9 +2314,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24EAAFBE186E1BBD00E1D2D3 /* HiveTests */ = {
+		24EAAFBE186E1BBD00E1D2D3 /* SecureOSXTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24EAAFD1186E1BBE00E1D2D3 /* Build configuration list for PBXNativeTarget "HiveTests" */;
+			buildConfigurationList = 24EAAFD1186E1BBE00E1D2D3 /* Build configuration list for PBXNativeTarget "SecureOSXTests" */;
 			buildPhases = (
 				06286C700A054417970F51CA /* Check Pods Manifest.lock */,
 				24EAAFBB186E1BBD00E1D2D3 /* Sources */,
@@ -2329,14 +2329,14 @@
 			dependencies = (
 				24EAAFCC186E1BBE00E1D2D3 /* PBXTargetDependency */,
 			);
-			name = HiveTests;
-			productName = HiveTests;
-			productReference = 24EAAFBF186E1BBD00E1D2D3 /* HiveTests.xctest */;
+			name = SecureOSXTests;
+			productName = SecureOSXTests;
+			productReference = 24EAAFBF186E1BBD00E1D2D3 /* SecureOSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9A591C31767B4A800502635 /* Hive */ = {
+		D9A591C31767B4A800502635 /* SecureOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9A591E41767B4A800502635 /* Build configuration list for PBXNativeTarget "Hive" */;
+			buildConfigurationList = D9A591E41767B4A800502635 /* Build configuration list for PBXNativeTarget "SecureOSX" */;
 			buildPhases = (
 				76E026BD5FBE46B6A03E4CCE /* Check Pods Manifest.lock */,
 				D9A591C01767B4A800502635 /* Sources */,
@@ -2350,9 +2350,9 @@
 			dependencies = (
 				D901F4F717B272D40071780D /* PBXTargetDependency */,
 			);
-			name = Hive;
-			productName = Hive;
-			productReference = D9A591C41767B4A800502635 /* Hive.app */;
+			name = SecureOSX;
+			productName = SecureOSX;
+			productReference = D9A591C41767B4A800502635 /* SecureOSX.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2363,14 +2363,14 @@
 			attributes = {
 				CLASSPREFIX = HI;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Hive Developers";
+				ORGANIZATIONNAME = "SecureOSX Developers";
 				TargetAttributes = {
 					24EAAFBE186E1BBD00E1D2D3 = {
 						TestTargetID = D9A591C31767B4A800502635;
 					};
 				};
 			};
-			buildConfigurationList = D9A591BF1767B4A800502635 /* Build configuration list for PBXProject "Hive" */;
+			buildConfigurationList = D9A591BF1767B4A800502635 /* Build configuration list for PBXProject "SecureOSX" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2419,8 +2419,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				D9A591C31767B4A800502635 /* Hive */,
-				24EAAFBE186E1BBD00E1D2D3 /* HiveTests */,
+				D9A591C31767B4A800502635 /* SecureOSX */,
+				24EAAFBE186E1BBD00E1D2D3 /* SecureOSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2472,16 +2472,16 @@
 				5884A03E17F57AE9004A31FA /* dsa_pub.pem in Resources */,
 				58A37AD6180D996E00CFCDE3 /* HIContactViewController.strings in Resources */,
 				2478B8D5184A88E700BA2C35 /* HIFeeDetailsViewController.xib in Resources */,
-				586059B0180419DF00FD9C2A /* minefield.hiveapp in Resources */,
+				586059B0180419DF00FD9C2A /* minefield.SecureOSXapp in Resources */,
 				588E355318212BDF006A6A25 /* HIErrorWindowController.strings in Resources */,
 				24300BE418830C4700FDEF2F /* HIWizardViewController.xib in Resources */,
-				586059B1180419DF00FD9C2A /* supporthive.hiveapp in Resources */,
+				586059B1180419DF00FD9C2A /* supportSecureOSX.SecureOSXapp in Resources */,
 				58A37A8A180D747C00CFCDE3 /* Localizable.strings in Resources */,
 				58571296189029850094F884 /* HIWizardBackupViewController.strings in Resources */,
 				588954231889254A00243190 /* HIPasswordInputViewController.strings in Resources */,
 				58A37A98180D7AF000CFCDE3 /* HIApplicationsViewController.xib in Resources */,
 				58A37A9B180D7AF600CFCDE3 /* HIContactsViewController.xib in Resources */,
-				58571260188F28A70094F884 /* bitstamptrader.hiveapp in Resources */,
+				58571260188F28A70094F884 /* bitstamptrader.SecureOSXapp in Resources */,
 				58A37AA1180D7B0100CFCDE3 /* HINewContactViewController.xib in Resources */,
 				58A37AA4180D7B0700CFCDE3 /* HIContactInfoViewController.xib in Resources */,
 				58A37AE5180D99F200CFCDE3 /* MainMenu.strings in Resources */,
@@ -2491,7 +2491,7 @@
 				58A37AAA180D7B1000CFCDE3 /* HIContactAutocompleteWindowController.xib in Resources */,
 				2478B8F2184A89EA00BA2C35 /* HIFeeDetailsViewController.strings in Resources */,
 				588E34DB181FF8A7006A6A25 /* HIDebuggingInfoWindowController.xib in Resources */,
-				588E34B7181E9F7B006A6A25 /* localbitcoins.hiveapp in Resources */,
+				588E34B7181E9F7B006A6A25 /* localbitcoins.SecureOSXapp in Resources */,
 				58A37AAD180D7B1500CFCDE3 /* HISendBitcoinsWindowController.xib in Resources */,
 				58A37AB0180D7B1D00CFCDE3 /* HITransactionsViewController.xib in Resources */,
 				58A37A9E180D7AFC00CFCDE3 /* HIMainWindowController.xib in Resources */,
@@ -2512,10 +2512,10 @@
 				58A37ADC180D997C00CFCDE3 /* HISendBitcoinsWindowController.strings in Resources */,
 				58605A4718041D0A00FD9C2A /* icon-dropdown-close.pdf in Resources */,
 				582C7DAB185273D400126C10 /* HIApplicationRuntimeViewController.xib in Resources */,
-				5857126F188F3C480094F884 /* bitpremier.hiveapp in Resources */,
+				5857126F188F3C480094F884 /* bitpremier.SecureOSXapp in Resources */,
 				58605A4818041D0A00FD9C2A /* icon-dropdown-open.pdf in Resources */,
 				58605A4918041D0A00FD9C2A /* icon-gray-btc.pdf in Resources */,
-				58E3363A18934DCB004D60C3 /* coinbase.hiveapp in Resources */,
+				58E3363A18934DCB004D60C3 /* coinbase.SecureOSXapp in Resources */,
 				58605A4A18041D0A00FD9C2A /* icon-group__active.pdf in Resources */,
 				58605A4B18041D0A00FD9C2A /* icon-group__inactive.pdf in Resources */,
 				5889538F1888A68100243190 /* HIBackupCenterWindowController.xib in Resources */,
@@ -2527,7 +2527,7 @@
 				58605A4D18041D0A00FD9C2A /* icon-next__active.pdf in Resources */,
 				5857131418902E630094F884 /* HIWizardPasswordViewController.strings in Resources */,
 				585713521890321A0094F884 /* HIWizardWelcomeViewController.strings in Resources */,
-				58571261188F28A70094F884 /* mobile-recharge.hiveapp in Resources */,
+				58571261188F28A70094F884 /* mobile-recharge.SecureOSXapp in Resources */,
 				58605A4E18041D0A00FD9C2A /* icon-next.pdf in Resources */,
 				588953AF188920D000243190 /* HIBackupCenterWindowController.strings in Resources */,
 				58605A4F18041D0A00FD9C2A /* icon-plus.pdf in Resources */,
@@ -2551,9 +2551,9 @@
 				58605A5C18041D0A00FD9C2A /* icon-transactions-plus.pdf in Resources */,
 				585712D618902D180094F884 /* HIWizardCompletedViewController.strings in Resources */,
 				58605A5D18041D0A00FD9C2A /* icon-your-profile__active.pdf in Resources */,
-				58D4D61F18290079009CB7A5 /* patten_hive.hiveapp in Resources */,
+				58D4D61F18290079009CB7A5 /* patten_SecureOSX.SecureOSXapp in Resources */,
 				58605A5E18041D0A00FD9C2A /* icon-your-profile__inactive.pdf in Resources */,
-				589064AE1805742C0082BE5C /* seansoutpost.hiveapp in Resources */,
+				589064AE1805742C0082BE5C /* seansoutpost.SecureOSXapp in Resources */,
 				1AA10ECC39D33A1362882EB2 /* HIProfileViewController.strings in Resources */,
 				1AA101EED53C9E95085C6DE3 /* HIProfileViewController.xib in Resources */,
 			);
@@ -2638,7 +2638,7 @@
 			files = (
 				D9A591D41767B4A800502635 /* main.m in Sources */,
 				D9A591DB1767B4A800502635 /* HIAppDelegate.m in Sources */,
-				D962AF031769FEF9009F882A /* Hive.xcdatamodeld in Sources */,
+				D962AF031769FEF9009F882A /* SecureOSX.xcdatamodeld in Sources */,
 				D983D0A317703CDE00844D69 /* HITransaction.m in Sources */,
 				D983D0A617703CE800844D69 /* HIContact.m in Sources */,
 				D9235373177C4222003533DF /* HIApplication.m in Sources */,
@@ -2673,7 +2673,7 @@
 				24300C9F188C858900FDEF2F /* HIWizardBackupViewController.m in Sources */,
 				5804C32617FC88BA003B7891 /* HIProfile.m in Sources */,
 				586059B4180419F500FD9C2A /* BCClient.m in Sources */,
-				586059BD18041A1300FD9C2A /* NSColor+Hive.m in Sources */,
+				586059BD18041A1300FD9C2A /* NSColor+SecureOSX.m in Sources */,
 				586059BE18041A1300FD9C2A /* NSImage+NPEffects.m in Sources */,
 				586059BF18041A1300FD9C2A /* NSView+Snapshot.m in Sources */,
 				586059C018041A1300FD9C2A /* SUCodeSigningVerifier+DisableCodeSigningCheck.m in Sources */,
@@ -2740,7 +2740,7 @@
 /* Begin PBXTargetDependency section */
 		24EAAFCC186E1BBE00E1D2D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9A591C31767B4A800502635 /* Hive */;
+			target = D9A591C31767B4A800502635 /* SecureOSX */;
 			targetProxy = 24EAAFCB186E1BBE00E1D2D3 /* PBXContainerItemProxy */;
 		};
 		D901F4F717B272D40071780D /* PBXTargetDependency */ = {
@@ -4185,7 +4185,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9458D6A454B45408789DFA5 /* Pods-test.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hive.app/Contents/MacOS/Hive";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecureOSX.app/Contents/MacOS/SecureOSX";
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
@@ -4194,7 +4194,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HiveTests/HiveTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "SecureOSXTests/SecureOSXTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -4202,7 +4202,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "HiveTests/HiveTests-Info.plist";
+				INFOPLIST_FILE = "SecureOSXTests/SecureOSXTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -4214,7 +4214,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9458D6A454B45408789DFA5 /* Pods-test.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hive.app/Contents/MacOS/Hive";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecureOSX.app/Contents/MacOS/SecureOSX";
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
@@ -4224,11 +4224,11 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HiveTests/HiveTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "SecureOSXTests/SecureOSXTests-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "HiveTests/HiveTests-Info.plist";
+				INFOPLIST_FILE = "SecureOSXTests/SecureOSXTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -4308,8 +4308,8 @@
 					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hive/Hive-Prefix.pch";
-				INFOPLIST_FILE = "Hive/Hive-Info.plist";
+				GCC_PREFIX_HEADER = "SecureOSX/SecureOSX-Prefix.pch";
+				INFOPLIST_FILE = "SecureOSX/SecureOSX-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -4327,8 +4327,8 @@
 					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hive/Hive-Prefix.pch";
-				INFOPLIST_FILE = "Hive/Hive-Info.plist";
+				GCC_PREFIX_HEADER = "SecureOSX/SecureOSX-Prefix.pch";
+				INFOPLIST_FILE = "SecureOSX/SecureOSX-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -4338,7 +4338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24EAAFD1186E1BBE00E1D2D3 /* Build configuration list for PBXNativeTarget "HiveTests" */ = {
+		24EAAFD1186E1BBE00E1D2D3 /* Build configuration list for PBXNativeTarget "SecureOSXTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24EAAFCD186E1BBE00E1D2D3 /* Debug */,
@@ -4347,7 +4347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9A591BF1767B4A800502635 /* Build configuration list for PBXProject "Hive" */ = {
+		D9A591BF1767B4A800502635 /* Build configuration list for PBXProject "SecureOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9A591E21767B4A800502635 /* Debug */,
@@ -4356,7 +4356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9A591E41767B4A800502635 /* Build configuration list for PBXNativeTarget "Hive" */ = {
+		D9A591E41767B4A800502635 /* Build configuration list for PBXNativeTarget "SecureOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9A591E51767B4A800502635 /* Debug */,
@@ -4368,15 +4368,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D962AF011769FEF9009F882A /* Hive.xcdatamodeld */ = {
+		D962AF011769FEF9009F882A /* SecureOSX.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				58357A3B186068A70077B717 /* 2013121701.xcdatamodel */,
 				58571253188D8E7A0094F884 /* 2014012001.xcdatamodel */,
-				D962AF021769FEF9009F882A /* Hive.xcdatamodel */,
+				D962AF021769FEF9009F882A /* SecureOSX.xcdatamodel */,
 			);
 			currentVersion = 58571253188D8E7A0094F884 /* 2014012001.xcdatamodel */;
-			path = Hive.xcdatamodeld;
+			path = SecureOSX.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,9 +1,9 @@
 //
 //  HIAppDelegate.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 11.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <BitcoinJKit/HIBitcoinErrorCodes.h>
@@ -37,7 +37,7 @@
 #import "HIWizardWindowController.h"
 #import "PFMoveApplication.h"
 
-static NSString * const LastVersionKey = @"LastHiveVersion";
+static NSString * const LastVersionKey = @"LastSecureOSXVersion";
 static NSString * const WarningDisplayedKey = @"WarningDisplayed";
 
 static int ddLogLevel = LOG_LEVEL_VERBOSE;
@@ -79,7 +79,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [self configureLoggers];
 
-    HILogInfo(@"Starting Hive v. %@...", [[NSBundle mainBundle] infoDictionary][@"CFBundleVersion"]);
+    HILogInfo(@"Starting SecureOSX v. %@...", [[NSBundle mainBundle] infoDictionary][@"CFBundleVersion"]);
 
     [self configureHockeyApp];
 
@@ -165,7 +165,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
         return;
     }
 
-    // we should be able to remove this in a few versions, this only happens if you run older versions of Hive
+    // we should be able to remove this in a few versions, this only happens if you run older versions of SecureOSX
     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:HITransactionEntity];
     request.predicate = [NSPredicate predicateWithFormat:@"date > %@", [NSDate date]];
     NSUInteger count = [DBM countForFetchRequest:request error:NULL];
@@ -183,9 +183,9 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
     NSURL *appSupportURL = [matchingURLs lastObject];
 
     if (DEBUG_OPTION_ENABLED(TESTING_NETWORK)) {
-        return [appSupportURL URLByAppendingPathComponent:@"HiveTest"];
+        return [appSupportURL URLByAppendingPathComponent:@"SecureOSXTest"];
     } else {
-        return [appSupportURL URLByAppendingPathComponent:@"Hive"];
+        return [appSupportURL URLByAppendingPathComponent:@"SecureOSX"];
     }
 }
 
@@ -257,7 +257,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
     if (error.code == kHIBitcoinManagerUnreadableWallet) {
         message = NSLocalizedString(@"Could not read wallet file. It might be damaged.", @"initialization error");
     } else if (error.code == kHIBitcoinManagerBlockStoreError) {
-        message = NSLocalizedString(@"Could not write wallet file. Another instance of Hive might still be running.",
+        message = NSLocalizedString(@"Could not write wallet file. Another instance of SecureOSX might still be running.",
                                     @"initialization error");
     }
 
@@ -266,7 +266,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
     NSAlert *alert;
 
     if (message) {
-        alert = [NSAlert alertWithMessageText:NSLocalizedString(@"Hive cannot be started.",
+        alert = [NSAlert alertWithMessageText:NSLocalizedString(@"SecureOSX cannot be started.",
                                                                 @"Initialization error title")
                                 defaultButton:NSLocalizedString(@"OK", @"OK button title")
                               alternateButton:nil
@@ -357,7 +357,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification {
-    HILogInfo(@"Quitting Hive...");
+    HILogInfo(@"Quitting SecureOSX...");
     [[BCClient sharedClient] shutdown];
 }
 
@@ -416,7 +416,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
 }
 
 - (BOOL)application:(NSApplication *)sender openFile:(NSString *)filename {
-    if ([filename.pathExtension isEqual:@"hiveapp"]) {
+    if ([filename.pathExtension isEqual:@"SecureOSXapp"]) {
         HIApplicationsManager *manager = [HIApplicationsManager sharedManager];
         NSURL *applicationURL = [NSURL fileURLWithPath:filename];
         NSDictionary *manifest = [manager applicationMetadata:applicationURL];
@@ -425,7 +425,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
         NSString *title, *info, *confirm;
 
         if ([manager hasApplicationOfId:manifest[@"id"]]) {
-            title = NSLocalizedString(@"You have already added \"%@\" to Hive. Would you like to overwrite it?",
+            title = NSLocalizedString(@"You have already added \"%@\" to SecureOSX. Would you like to overwrite it?",
                                       @"Install app popup title when app exists");
 
             info = NSLocalizedString(@"The existing app file will be replaced by the new version. "
@@ -434,11 +434,11 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
 
             confirm = NSLocalizedString(@"Reinstall", @"Install app button title when app exists");
         } else {
-            title = NSLocalizedString(@"Do you want to add \"%@\" to Hive?",
+            title = NSLocalizedString(@"Do you want to add \"%@\" to SecureOSX?",
                                       @"Install app popup title");
 
             info = NSLocalizedString(@"We cannot guarantee the safety of all apps - please be careful "
-                                     @"if you download Hive apps from third party sites.",
+                                     @"if you download SecureOSX apps from third party sites.",
                                      @"Install app popup warning message");
 
             confirm = NSLocalizedString(@"Install", @"Install app button title");

@@ -1,9 +1,9 @@
 //
 //  HITransactionsViewController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 28.08.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "BCClient.h"
@@ -14,7 +14,7 @@
 #import "HITransaction.h"
 #import "HITransactionCellView.h"
 #import "HITransactionsViewController.h"
-#import "NSColor+Hive.h"
+#import "NSColor+SecureOSX.h"
 #import "HIBitcoinFormatService.h"
 
 @interface HITransactionsViewController () <BCTransactionObserver>
@@ -234,13 +234,13 @@
     static dispatch_once_t onceToken;
 
     dispatch_once(&onceToken, ^{
-        NSString *link = @" http://hivewallet.com";
+        NSString *link = @" http://SecureOSXwallet.com";
 
-        NSString *text = NSLocalizedString(@"I've just sent some Bitcoin using Hive",
+        NSString *text = NSLocalizedString(@"I've just sent some Bitcoin using SecureOSX",
                                            @"Share sent transaction text");
         sentString = [[NSAttributedString alloc] initWithString:[text stringByAppendingString:link]];
 
-        text = NSLocalizedString(@"I've just received some Bitcoin using Hive",
+        text = NSLocalizedString(@"I've just received some Bitcoin using SecureOSX",
                                  @"Share sent transaction text");
         receivedString = [[NSAttributedString alloc] initWithString:[text stringByAppendingString:link]];
     });

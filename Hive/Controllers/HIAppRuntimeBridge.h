@@ -1,9 +1,9 @@
 //
 //  HIAppRuntimeBridge.h
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 27.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,7 +14,7 @@
 
 /*
  Implements the window.bitcoin object in the application's JS context that acts as a gateway between the app
- and Hive.
+ and SecureOSX.
  */
 
 @interface HIAppRuntimeBridge : HIJavaScriptObject

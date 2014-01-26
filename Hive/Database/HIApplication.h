@@ -1,9 +1,9 @@
 //
 //  HIApplication.h
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 27.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <CoreData/CoreData.h>
@@ -14,7 +14,7 @@ extern NSString * const HIApplicationEntity;
 
 /*
  A single application, displayed in the Applications tab. An application has an HIApplication record in the database,
- and also a bundle file in ~/Library/Application Support/Hive/Applications.
+ and also a bundle file in ~/Library/Application Support/SecureOSX/Applications.
  */
 
 @interface HIApplication : NSManagedObject

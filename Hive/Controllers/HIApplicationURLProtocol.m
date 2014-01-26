@@ -1,9 +1,9 @@
 //
 //  HIApplicationURLProtocol.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 18.07.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "HIApplicationsManager.h"
@@ -16,7 +16,7 @@ static NPZip *zipFile = nil;
 @implementation HIApplicationURLProtocol
 
 + (BOOL)canInitWithRequest:(NSURLRequest *)request {
-    return [request.URL.host hasSuffix:@".hiveapp"];
+    return [request.URL.host hasSuffix:@".SecureOSXapp"];
 }
 
 + (NSURLRequest *)canonicalRequestForRequest:(NSURLRequest *)request {
@@ -51,7 +51,7 @@ static NPZip *zipFile = nil;
 
     if ([self isURLZipped:self.request.URL]) {
         if (!zipFile || ![zipFile.name isEqual:appName]) {
-            zipFile = [NPZip archiveWithFile:applicationURL.path];
+            zipFile = [NPZip arcSecureOSXWithFile:applicationURL.path];
         }
 
         contentData = [zipFile dataForEntryNamed:localPath];

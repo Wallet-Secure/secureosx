@@ -1,9 +1,9 @@
 //
 //  HINewContactViewController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 02.09.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "HIAddress.h"
@@ -12,7 +12,7 @@
 #import "HINavigationController.h"
 #import "HINewContactViewController.h"
 #import "HIProfile.h"
-#import "NSColor+Hive.h"
+#import "NSColor+SecureOSX.h"
 
 static const CGFloat NameFieldsGap = 10.0;
 static const CGFloat NameFieldsLineSpacing = 10.0;

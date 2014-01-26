@@ -2,13 +2,13 @@
 /* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
 "29.title" = "AMainMenu";
 
-/* Class = "NSMenuItem"; title = "Hive"; ObjectID = "56"; */
+/* Class = "NSMenuItem"; title = "SecureOSX"; ObjectID = "56"; */
 "56.title" = "하이브";
 
-/* Class = "NSMenu"; title = "Hive"; ObjectID = "57"; */
+/* Class = "NSMenu"; title = "SecureOSX"; ObjectID = "57"; */
 "57.title" = "하이브";
 
-/* Class = "NSMenuItem"; title = "About Hive"; ObjectID = "58"; */
+/* Class = "NSMenuItem"; title = "About SecureOSX"; ObjectID = "58"; */
 "58.title" = "하이브 소개";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
@@ -20,10 +20,10 @@
 /* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
 "131.title" = "서비스";
 
-/* Class = "NSMenuItem"; title = "Hide Hive"; ObjectID = "134"; */
+/* Class = "NSMenuItem"; title = "Hide SecureOSX"; ObjectID = "134"; */
 "134.title" = "하이브 숨기기";
 
-/* Class = "NSMenuItem"; title = "Quit Hive"; ObjectID = "136"; */
+/* Class = "NSMenuItem"; title = "Quit SecureOSX"; ObjectID = "136"; */
 "136.title" = "하이브 나가기";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */

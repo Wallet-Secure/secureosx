@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="o5O-SS-J37">
                             <font key="font" metaFont="system"/>
-                            <string key="title">Jeśli będziesz mieć jakieś problemy ze swoim portfelem Hive, możemy poprosić cię o przesłanie nam informacji z pola tekstowego poniżej. Nie ma tam Twoich kluczy prywatnych, więc możesz je nam przekazać bez obawy, że uzyskamy dostęp do twoich Bitcoinów.</string>
+                            <string key="title">Jeśli będziesz mieć jakieś problemy ze swoim portfelem SecureOSX, możemy poprosić cię o przesłanie nam informacji z pola tekstowego poniżej. Nie ma tam Twoich kluczy prywatnych, więc możesz je nam przekazać bez obawy, że uzyskamy dostęp do twoich Bitcoinów.</string>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>

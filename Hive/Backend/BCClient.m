@@ -1,9 +1,9 @@
 //
 //  BCClient.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 20.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <AFNetworking/AFJSONRequestOperation.h>
@@ -17,7 +17,7 @@
 #import "HITransaction.h"
 #import "HIPasswordHolder.h"
 
-static NSString * const kBCClientBaseURLString = @"https://grabhive.com/";
+static NSString * const kBCClientBaseURLString = @"https://grabSecureOSX.com/";
 NSString * const BCClientBitcoinjDirectory = @"BitcoinJ.network";
 NSString * const BCClientTorDirectory = @"Tor.network";
 NSString * const BCClientPasswordChangedNotification = @"BCClientPasswordChangedNotification";

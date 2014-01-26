@@ -1,9 +1,9 @@
 //
 //  HIWizardPasswordViewController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Nikolaj Schumacher on 2014-01-19.
-//  Copyright (c) 2014 Hive Developers. All rights reserved.
+//  Copyright (c) 2014 SecureOSX Developers. All rights reserved.
 //
 
 #import "HIWizardPasswordViewController.h"

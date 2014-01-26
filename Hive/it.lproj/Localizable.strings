@@ -72,7 +72,7 @@
 "Could not save changes while quitting. Quit anyway?" = "Se chiudi l'applicazione non sarà possibile salvare le modifiche apportate. Chiudere comunque?";
 
 /* initialization error */
-"Could not write wallet file. Another instance of Hive might still be running." = "Non è possibile creare il file del portafoglio. Hive potrebbe essere ancora in esecuzione.";
+"Could not write wallet file. Another instance of SecureOSX might still be running." = "Non è possibile creare il file del portafoglio. SecureOSX potrebbe essere ancora in esecuzione.";
 
 /* Disable backup button title */
 "Disable" = "Disabilita";
@@ -84,7 +84,7 @@
 "Do you really want to remove %@ from your contact list?" = "Vuoi davvero rimuovere %@ dai tuoi contatti?";
 
 /* Install app popup title */
-"Do you want to add \"%@\" to Hive?" = "Vuoi aggiungere \"%@\" ad Hive?";
+"Do you want to add \"%@\" to SecureOSX?" = "Vuoi aggiungere \"%@\" ad SecureOSX?";
 
 /* Backup error message */
 "Dropbox folder not found" = "Cartella Dropbox non trovata";
@@ -120,19 +120,19 @@
 "Firstname" = "Nome";
 
 /* Initialization error title */
-"Hive cannot be started." = "Hive non può essere aperto.";
+"SecureOSX cannot be started." = "SecureOSX non può essere aperto.";
 
 /* Database error alert title */
-"Hive database file cannot be opened." = "Il file database di Hive non può essere aperto.";
+"SecureOSX database file cannot be opened." = "Il file database di SecureOSX non può essere aperto.";
 
 /* Backup error message */
-"Hive directory is excluded from Time Machine backup" = "La cartella di Hive è esclusa dal backup di Time Machine";
+"SecureOSX directory is excluded from Time Machine backup" = "La cartella di SecureOSX è esclusa dal backup di Time Machine";
 
 /* Share sent transaction text */
-"I've just received some Bitcoin using Hive" = "Ho appena ricevuto Bitcoins utilizzando Hive";
+"I've just received some Bitcoin using SecureOSX" = "Ho appena ricevuto Bitcoins utilizzando SecureOSX";
 
 /* Share sent transaction text */
-"I've just sent some Bitcoin using Hive" = "Ho appena inviato Bitcoins utilizzando Hive";
+"I've just sent some Bitcoin using SecureOSX" = "Ho appena inviato Bitcoins utilizzando SecureOSX";
 
 /* Install app button title */
 "Install" = "Installa";
@@ -228,7 +228,7 @@
 "The application data file has been removed or corrupted." = "Il file di dati dell'applicazione è stato rimosso o corrotto.";
 
 /* Error message when database is incompatible with this version */
-"The database was saved by a newer version of Hive - please download the latest version from http://hivewallet.com." = "Il database è stato salvato dalla versione più recente di Hive - per favore scarica l'ultima versione da http://hivewallet.com.";
+"The database was saved by a newer version of SecureOSX - please download the latest version from http://SecureOSXwallet.com." = "Il database è stato salvato dalla versione più recente di SecureOSX - per favore scarica l'ultima versione da http://SecureOSXwallet.com.";
 
 /* Install app popup warning message when app exists */
 "The existing app file will be replaced by the new version. This will not affect any app settings or saved data." = "Il file di applicazione attuale sarà sostituito dalla nuova versione. Questo non avrà alcun effetto sulle impostazioni e sui dati dell'applicazione.";
@@ -273,7 +273,7 @@
 "Waiting for backup" = "In attesa del backup";
 
 /* Install app popup warning message */
-"We cannot guarantee the safety of all apps - please be careful if you download Hive apps from third party sites." = "Non possiamo garantire la sicurezza di tutte le applicazioni -per favore presta molta attenzione se scarichi Hive da terze parti.";
+"We cannot guarantee the safety of all apps - please be careful if you download SecureOSX apps from third party sites." = "Non possiamo garantire la sicurezza di tutte le applicazioni -per favore presta molta attenzione se scarichi SecureOSX da terze parti.";
 
 /* Wizard welcome page title */
 "Welcome" = "Benvenuto";
@@ -288,7 +288,7 @@
 "You cannot send more money than you own." = "Non puoi inviare più soldi di quelli che hai.";
 
 /* Install app popup title when app exists */
-"You have already added \"%@\" to Hive. Would you like to overwrite it?" = " Hai già aggiunto \"%@\" ad Hive. Vuoi sostituirlo?";
+"You have already added \"%@\" to SecureOSX. Would you like to overwrite it?" = " Hai già aggiunto \"%@\" ad SecureOSX. Vuoi sostituirlo?";
 
 /* Notification of confirmed sent transaction (with BTC amount) */
 "You have sent %@." = "Hai inviato %@.";

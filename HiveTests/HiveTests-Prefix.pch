@@ -4,7 +4,7 @@
 //  The contents of this file are implicitly included at the beginning of every source file.
 //
 
-#import "Hive-Prefix.pch"
+#import "SecureOSX-Prefix.pch"
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>

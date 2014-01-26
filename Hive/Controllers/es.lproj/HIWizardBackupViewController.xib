@@ -77,7 +77,7 @@
                     </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="rIc-eX-ajY">
                         <font key="font" metaFont="system" size="16"/>
-                        <string key="title">Hacer un backup del archivo de tu cartera es también una importante medida para proteger tu dinero. Vamos a hacer una copia del backup de tu cartera ahora. Si alguna vez pierdes tu ordenador, Hive puede recuperar tu cartera desde estos archivos.</string>
+                        <string key="title">Hacer un backup del archivo de tu cartera es también una importante medida para proteger tu dinero. Vamos a hacer una copia del backup de tu cartera ahora. Si alguna vez pierdes tu ordenador, SecureOSX puede recuperar tu cartera desde estos archivos.</string>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>

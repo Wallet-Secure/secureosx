@@ -1,9 +1,9 @@
 //
 //  BCClient.h
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 20.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "AFHTTPClient.h"

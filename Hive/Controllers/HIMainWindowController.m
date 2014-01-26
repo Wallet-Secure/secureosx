@@ -1,9 +1,9 @@
 //
 //  HIMainWindowController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 12.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <QuartzCore/QuartzCore.h>
@@ -19,7 +19,7 @@
 #import "HISidebarController.h"
 #import "HITransactionsViewController.h"
 #import "HIViewController.h"
-#import "NSColor+Hive.h"
+#import "NSColor+SecureOSX.h"
 #import "NSImage+NPEffects.h"
 
 static const CGFloat TitleBarHeight = 35.0;

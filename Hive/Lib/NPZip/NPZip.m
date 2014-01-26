@@ -3,7 +3,7 @@
 //  ZipTest
 //
 //  Created by Bazyli Zygan on 23.11.2011.
-//  Copyright (c) 2011 Hive Developers. All rights reserved.
+//  Copyright (c) 2011 SecureOSX Developers. All rights reserved.
 //
 
 #import <zlib.h>
@@ -35,7 +35,7 @@ static uint32_t NPReadUInt32(FILE *fp) {
 @implementation NPZip
 
 
-+ (id) archiveWithFile:(NSString *)location {
++ (id) arcSecureOSXWithFile:(NSString *)location {
 	return [[NPZip alloc] initWithFile:location];
 }
 

@@ -77,7 +77,7 @@
                     </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="rIc-eX-ajY">
                         <font key="font" metaFont="system" size="16"/>
-                        <string key="title">Effettuare il Backup del tuo portafoglio è un'importante misura di sicurezza per proteggere i tuoi soldi. Crea un backup del tuo portafoglio adesso. Se perdi il computer, Hive può recuperare il tuo portafoglio da questi files.</string>
+                        <string key="title">Effettuare il Backup del tuo portafoglio è un'importante misura di sicurezza per proteggere i tuoi soldi. Crea un backup del tuo portafoglio adesso. Se perdi il computer, SecureOSX può recuperare il tuo portafoglio da questi files.</string>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>

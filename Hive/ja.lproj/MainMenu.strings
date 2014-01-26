@@ -2,13 +2,13 @@
 /* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
 "29.title" = "メインメニュー";
 
-/* Class = "NSMenuItem"; title = "Hive"; ObjectID = "56"; */
+/* Class = "NSMenuItem"; title = "SecureOSX"; ObjectID = "56"; */
 "56.title" = "ハイブ";
 
-/* Class = "NSMenu"; title = "Hive"; ObjectID = "57"; */
+/* Class = "NSMenu"; title = "SecureOSX"; ObjectID = "57"; */
 "57.title" = "ハイブ";
 
-/* Class = "NSMenuItem"; title = "About Hive"; ObjectID = "58"; */
+/* Class = "NSMenuItem"; title = "About SecureOSX"; ObjectID = "58"; */
 "58.title" = "ハイブについて";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
@@ -20,10 +20,10 @@
 /* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
 "131.title" = "サービス";
 
-/* Class = "NSMenuItem"; title = "Hide Hive"; ObjectID = "134"; */
+/* Class = "NSMenuItem"; title = "Hide SecureOSX"; ObjectID = "134"; */
 "134.title" = "ハイブを隠す";
 
-/* Class = "NSMenuItem"; title = "Quit Hive"; ObjectID = "136"; */
+/* Class = "NSMenuItem"; title = "Quit SecureOSX"; ObjectID = "136"; */
 "136.title" = "ハイブを止める";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */

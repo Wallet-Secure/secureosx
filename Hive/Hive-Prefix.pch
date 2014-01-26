@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'Hive' target in the 'Hive' project
+// Prefix header for all source files of the 'SecureOSX' target in the 'SecureOSX' project
 //
 
 #ifdef __OBJC__
@@ -17,7 +17,7 @@
 #endif
 
 #ifdef DEBUG
-    #define DEBUG_OPTION_ENABLED(name) (name || ({const char *v = getenv("HIVE_" # name); v && v[0];}))
+    #define DEBUG_OPTION_ENABLED(name) (name || ({const char *v = getenv("SecureOSX_" # name); v && v[0];}))
 #else
     #define DEBUG_OPTION_ENABLED(name) (name)
 #endif

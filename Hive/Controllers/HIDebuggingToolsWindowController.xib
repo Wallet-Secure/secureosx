@@ -74,7 +74,7 @@
                     <textField verticalHuggingPriority="750" id="h2z-1w-nan">
                         <rect key="frame" x="17" y="278" width="389" height="32"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Updates the list of applications so that it reflects which apps are actually installed in Hive's Applications folder." id="qZF-y6-NSQ">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Updates the list of applications so that it reflects which apps are actually installed in SecureOSX's Applications folder." id="qZF-y6-NSQ">
                             <font key="font" metaFont="cellTitle"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -94,7 +94,7 @@
                     <textField verticalHuggingPriority="750" id="V9e-pJ-wRq">
                         <rect key="frame" x="17" y="197" width="389" height="32"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Installs apps bundled inside Hive.app into your Applications directory." id="2tw-SV-J3A">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Installs apps bundled inside SecureOSX.app into your Applications directory." id="2tw-SV-J3A">
                             <font key="font" size="12" name="LucidaGrande"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>

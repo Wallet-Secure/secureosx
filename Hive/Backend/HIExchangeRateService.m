@@ -155,12 +155,12 @@ static const NSTimeInterval HIExchangeRateAutomaticUpdateInterval = 60.0 * 60.0;
 - (void)didChangeAppNapState:(NSNotification *)notification {
     BOOL visible = [self shouldUpdateAutomatically];
     if (visible) {
-        HILogDebug(@"Hive became visible");
+        HILogDebug(@"SecureOSX became visible");
         if (self.observers.count > 0) {
             [self performAutomaticUpdate];
         }
     } else {
-        HILogDebug(@"Hive became invisible");
+        HILogDebug(@"SecureOSX became invisible");
         [self cancelAutomaticUpdate];
     }
 }

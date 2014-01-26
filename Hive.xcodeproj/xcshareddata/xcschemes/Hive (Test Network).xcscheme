@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D9A591C31767B4A800502635"
-               BuildableName = "Hive.app"
-               BlueprintName = "Hive"
-               ReferencedContainer = "container:Hive.xcodeproj">
+               BuildableName = "SecureOSX.app"
+               BlueprintName = "SecureOSX"
+               ReferencedContainer = "container:SecureOSX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24EAAFBE186E1BBD00E1D2D3"
-               BuildableName = "HiveTests.xctest"
-               BlueprintName = "HiveTests"
-               ReferencedContainer = "container:Hive.xcodeproj">
+               BuildableName = "SecureOSXTests.xctest"
+               BlueprintName = "SecureOSXTests"
+               ReferencedContainer = "container:SecureOSX.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9A591C31767B4A800502635"
-            BuildableName = "Hive.app"
-            BlueprintName = "Hive"
-            ReferencedContainer = "container:Hive.xcodeproj">
+            BuildableName = "SecureOSX.app"
+            BlueprintName = "SecureOSX"
+            ReferencedContainer = "container:SecureOSX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,14 +62,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9A591C31767B4A800502635"
-            BuildableName = "Hive.app"
-            BlueprintName = "Hive"
-            ReferencedContainer = "container:Hive.xcodeproj">
+            BuildableName = "SecureOSX.app"
+            BlueprintName = "SecureOSX"
+            ReferencedContainer = "container:SecureOSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
-            key = "HIVE_TESTING_NETWORK"
+            key = "SecureOSX_TESTING_NETWORK"
             value = "1"
             isEnabled = "YES">
          </EnvironmentVariable>
@@ -87,17 +87,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9A591C31767B4A800502635"
-            BuildableName = "Hive.app"
-            BlueprintName = "Hive"
-            ReferencedContainer = "container:Hive.xcodeproj">
+            BuildableName = "SecureOSX.app"
+            BlueprintName = "SecureOSX"
+            ReferencedContainer = "container:SecureOSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
-   <ArchiveAction
+   <ArcSecureOSXAction
       buildConfiguration = "Release"
-      revealArchiveInOrganizer = "YES">
-   </ArchiveAction>
+      revealArcSecureOSXInOrganizer = "YES">
+   </ArcSecureOSXAction>
 </Scheme>

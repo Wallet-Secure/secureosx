@@ -2,14 +2,14 @@
 /* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
 "29.title" = "Главное меню";
 
-/* Class = "NSMenuItem"; title = "Hive"; ObjectID = "56"; */
-"56.title" = "Hive";
+/* Class = "NSMenuItem"; title = "SecureOSX"; ObjectID = "56"; */
+"56.title" = "SecureOSX";
 
-/* Class = "NSMenu"; title = "Hive"; ObjectID = "57"; */
-"57.title" = "Hive";
+/* Class = "NSMenu"; title = "SecureOSX"; ObjectID = "57"; */
+"57.title" = "SecureOSX";
 
-/* Class = "NSMenuItem"; title = "About Hive"; ObjectID = "58"; */
-"58.title" = "О Hive";
+/* Class = "NSMenuItem"; title = "About SecureOSX"; ObjectID = "58"; */
+"58.title" = "О SecureOSX";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
 "129.title" = "Настройки…";
@@ -20,11 +20,11 @@
 /* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
 "131.title" = "Сервисы";
 
-/* Class = "NSMenuItem"; title = "Hide Hive"; ObjectID = "134"; */
-"134.title" = "Скрыть Hive";
+/* Class = "NSMenuItem"; title = "Hide SecureOSX"; ObjectID = "134"; */
+"134.title" = "Скрыть SecureOSX";
 
-/* Class = "NSMenuItem"; title = "Quit Hive"; ObjectID = "136"; */
-"136.title" = "Выйти из Hive";
+/* Class = "NSMenuItem"; title = "Quit SecureOSX"; ObjectID = "136"; */
+"136.title" = "Выйти из SecureOSX";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
 "145.title" = "Скрыть остальные";

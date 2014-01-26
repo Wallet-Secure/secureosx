@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-BASE_DIRECTORIES = ['Hive', 'Hive/Controllers']
+BASE_DIRECTORIES = ['SecureOSX', 'SecureOSX/Controllers']
 IGNORED_LABELS = [
   "Box", "John Appleseed", "John Whatshisface", "Label", "Multiline Label", "OtherViews", "Text Cell", "Window",
 ]

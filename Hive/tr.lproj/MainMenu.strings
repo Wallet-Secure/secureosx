@@ -2,14 +2,14 @@
 /* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
 "29.title" = "AMainMenu";
 
-/* Class = "NSMenuItem"; title = "Hive"; ObjectID = "56"; */
-"56.title" = "Hive";
+/* Class = "NSMenuItem"; title = "SecureOSX"; ObjectID = "56"; */
+"56.title" = "SecureOSX";
 
-/* Class = "NSMenu"; title = "Hive"; ObjectID = "57"; */
-"57.title" = "Hive";
+/* Class = "NSMenu"; title = "SecureOSX"; ObjectID = "57"; */
+"57.title" = "SecureOSX";
 
-/* Class = "NSMenuItem"; title = "About Hive"; ObjectID = "58"; */
-"58.title" = "Hive Hakkında";
+/* Class = "NSMenuItem"; title = "About SecureOSX"; ObjectID = "58"; */
+"58.title" = "SecureOSX Hakkında";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
 "129.title" = "Seçenekler…";
@@ -20,11 +20,11 @@
 /* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
 "131.title" = "Hizmetler";
 
-/* Class = "NSMenuItem"; title = "Hide Hive"; ObjectID = "134"; */
-"134.title" = "Hive'ı Gizle";
+/* Class = "NSMenuItem"; title = "Hide SecureOSX"; ObjectID = "134"; */
+"134.title" = "SecureOSX'ı Gizle";
 
-/* Class = "NSMenuItem"; title = "Quit Hive"; ObjectID = "136"; */
-"136.title" = "Hive'dan Çık";
+/* Class = "NSMenuItem"; title = "Quit SecureOSX"; ObjectID = "136"; */
+"136.title" = "SecureOSX'dan Çık";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
 "145.title" = "Diğerlerini Gizle";

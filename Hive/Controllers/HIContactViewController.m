@@ -1,16 +1,16 @@
 //
 //  HIContactViewController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Jakub Suder on 30.08.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import "HIContactInfoViewController.h"
 #import "HIContactViewController.h"
 #import "HISendBitcoinsWindowController.h"
 #import "HITransactionsViewController.h"
-#import "NSColor+Hive.h"
+#import "NSColor+SecureOSX.h"
 
 @interface HIContactViewController () {
     HIContact *_contact;

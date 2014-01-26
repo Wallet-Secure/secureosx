@@ -1,9 +1,9 @@
 //
 //  HIFeeDetailsViewController.h
-//  Hive
+//  SecureOSX
 //
 //  Created by Nikolaj Schumacher on 2013-11-30.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 /*

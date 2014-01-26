@@ -1,9 +1,9 @@
 //
 //  HIApplicationRuntimeViewController.m
-//  Hive
+//  SecureOSX
 //
 //  Created by Bazyli Zygan on 27.06.2013.
-//  Copyright (c) 2013 Hive Developers. All rights reserved.
+//  Copyright (c) 2013 SecureOSX Developers. All rights reserved.
 //
 
 #import <BitcoinJKit/HILogger.h>
@@ -68,8 +68,8 @@
     }
 
     // set custom user agent
-    NSString *hiveVersion = [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"];
-    self.webView.applicationNameForUserAgent = [NSString stringWithFormat:@"Hive/%@", hiveVersion];
+    NSString *SecureOSXVersion = [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"];
+    self.webView.applicationNameForUserAgent = [NSString stringWithFormat:@"SecureOSX/%@", SecureOSXVersion];
 
     // disable cross-site security check
     NSString *noSecurityPreferencesId = @"noSecurity";
@@ -78,7 +78,7 @@
     [self.webView setPreferencesIdentifier:noSecurityPreferencesId];
 
     // load the app
-    _baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@.hiveapp/index.html", self.application.id]];
+    _baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@.SecureOSXapp/index.html", self.application.id]];
 
     [self.webView.mainFrame loadRequest:[NSURLRequest requestWithURL:_baseURL]];
 }

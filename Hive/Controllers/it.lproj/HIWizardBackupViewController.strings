@@ -29,5 +29,5 @@
 /* Class = "NSButtonCell"; title = "Enable"; ObjectID = "lG8-G7-noh"; */
 "lG8-G7-noh.title" = "Abilita";
 
-/* Class = "NSTextFieldCell"; title = "Backing up your wallet file is also an important safety measure to protect your money. Let's make a backup copy of your wallet now. If you ever lose your computer, Hive can retrieve your wallet from these sources."; ObjectID = "rIc-eX-ajY"; */
-"rIc-eX-ajY.title" = "Effettuare il Backup del tuo portafoglio è un'importante misura di sicurezza per proteggere i tuoi soldi. Crea un backup del tuo portafoglio adesso. Se perdi il computer, Hive può recuperare il tuo portafoglio da questi files.";
+/* Class = "NSTextFieldCell"; title = "Backing up your wallet file is also an important safety measure to protect your money. Let's make a backup copy of your wallet now. If you ever lose your computer, SecureOSX can retrieve your wallet from these sources."; ObjectID = "rIc-eX-ajY"; */
+"rIc-eX-ajY.title" = "Effettuare il Backup del tuo portafoglio è un'importante misura di sicurezza per proteggere i tuoi soldi. Crea un backup del tuo portafoglio adesso. Se perdi il computer, SecureOSX può recuperare il tuo portafoglio da questi files.";
