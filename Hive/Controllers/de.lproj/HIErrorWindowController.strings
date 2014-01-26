@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Error"; ObjectID = "1"; */
+"1.title" = "Fehler";
+
+/* Class = "NSTextFieldCell"; placeholderString = "email@domain.com"; ObjectID = "0m5-Xd-7pp"; */
+"0m5-Xd-7pp.placeholderString" = "email@domain.com";
+
+/* Class = "NSTextFieldCell"; title = "Please send us a report to help us fix the problem."; ObjectID = "Cob-tq-o5r"; */
+"Cob-tq-o5r.title" = "Bitte helfen Sie uns das Problem zu beheben, indem Sie uns einen Fehlerbericht schicken.";
+
+/* Class = "NSTextFieldCell"; title = "Describe what you were doing when the error occurred:"; ObjectID = "F9w-28-7kX"; */
+"F9w-28-7kX.title" = "Beschreiben Sie, was Sie zuletzt getan haben, bevor der Fehler auftrat. (Wenn möglich, schreiben Sie bitte auf Englisch):";
+
+/* Class = "NSTextFieldCell"; title = "Oh no, something went wrong!"; ObjectID = "Mpx-rH-nUM"; */
+"Mpx-rH-nUM.title" = "Oh nein, etwas ist schief gelaufen!";
+
+/* Class = "NSTextFieldCell"; title = "Email (optional)"; ObjectID = "qVP-Mf-lLP"; */
+"qVP-Mf-lLP.title" = "E-Mail (optional)";
+
+/* Class = "NSButtonCell"; title = "Send"; ObjectID = "tDm-yy-jVS"; */
+"tDm-yy-jVS.title" = "Senden";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "tR0-Dg-y0x"; */
+"tR0-Dg-y0x.title" = "Abbrechen";
+
+/* Class = "NSTextFieldCell"; title = "Error details:"; ObjectID = "uLK-ff-isg"; */
+"uLK-ff-isg.title" = "Fehler-Details:";
+
+/* Class = "NSTextFieldCell"; title = "An unexpected error has occurred in Hive."; ObjectID = "xF4-pJ-cQU"; */
+"xF4-pJ-cQU.title" = "Ein unerwartetes Problem ist in Hive aufgetreten.";
+
+/* Class = "NSTextFieldCell"; title = "Name (optional)"; ObjectID = "yDj-TF-cJK"; */
+"yDj-TF-cJK.title" = "Name (optional)";

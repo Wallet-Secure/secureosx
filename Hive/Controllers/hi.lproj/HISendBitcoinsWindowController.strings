@@ -1,0 +1,27 @@
+
+/* Class = "NSWindow"; title = "Send Bitcoin"; ObjectID = "1"; */
+"1.title" = "बिटकॅाइन भेजें";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "6"; */
+"6.title" = "रद्द करें";
+
+/* Class = "NSButtonCell"; title = "Send"; ObjectID = "10"; */
+"10.title" = "भेजें";
+
+/* Class = "NSTextFieldCell"; title = "To:"; ObjectID = "14"; */
+"14.title" = "को:";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Type to search..."; ObjectID = "20"; */
+"20.placeholderString" = "खोजने के लिए टाइप करें ...";
+
+/* Class = "NSTextFieldCell"; title = "Main address"; ObjectID = "22"; */
+"22.title" = "मुख्य पता";
+
+/* Class = "NSTextFieldCell"; title = "0.0"; ObjectID = "37"; */
+"37.title" = "0.0";
+
+/* Class = "NSTextFieldCell"; title = "0.0"; ObjectID = "DX5-Li-q9R"; */
+"DX5-Li-q9R.title" = "0.0";
+
+/* Class = "NSButtonCell"; title = "+0.00001"; ObjectID = "PvI-F7-VRv"; */
+"PvI-F7-VRv.title" = "+0.00001";
